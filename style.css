@@ -1,7 +1,7 @@
 /*CSS reset settings here*/
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
+    padding: 4px;
    }
    #wrapper{
     width: 950px;
@@ -16,20 +16,24 @@
     min-height: 300px;
     width: 200px;
     background-color: blue;
+    display: inline-block;
    }
    #main_content{
     min-height: 400px;
-    width: 700px;
+    width: 72%;
     background-color: red;
+    display: inline-block;
+    vertical-align: top;
    }
    .subcontents{
     min-height: 200px;
-    width: 210px;
+    width: 28%;
     background-color: yellow;
+    display: inline-block;
    }
    #advertisement{
     min-height: 120px;
-    width: 660px;
+    width: 94%;
     background-color: purple;
    }
    
